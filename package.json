@@ -4,12 +4,17 @@
   "description": "A JSON Resume theme built with bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx --yes resume-cli serve --theme . --resume resume.json",
+    "build:html": "npx --yes resume-cli export public/index.html --theme . --resume resume.json",
+    "build:pdf": "npx --yes resume-cli export public/resume.pdf --format pdf --theme . --resume resume.json",
+    "start": "npm run serve"
   },
   "author": "M. Adam Kendall",
   "license": "MIT",
   "dependencies": {
     "gravatar": "^1.0.6",
+    "index.js": "^0.0.3",
     "lodash": "^4.17.20",
     "mustache": "^2.2.1"
   },
