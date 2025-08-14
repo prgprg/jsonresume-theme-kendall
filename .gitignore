@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 
 public
+resume.generated.json
+resume_copy.json
