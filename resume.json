@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Ali Pourgholami Jirandehi",
+    "name": "Ali Pourgholami",
     "label": "Medical Engineer and Software Developer",
     "image": "img/profile.jpg",
     "email": "ali.pourgholami99@gmail.com",
@@ -10,10 +10,10 @@
     "summary": "",
     "location": {
       "address": "",
-      "postalCode": "53115",
+      "postalCode": "",
       "city": "Bonn",
-      "countryCode": "DE",
-      "region": "North Rhine-Westphalia"
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
@@ -29,7 +29,7 @@
       "location": "Aachen, Germany",
       "position": "Working Student, AI Team (Hiwi)",
       "url": "https://www.inform-software.com/",
-  "startDate": "2022-03-01",
+      "startDate": "2022-03-01",
       "summary": "Worked as a student in the AI team.",
       "highlights": [
         "Developed and optimized machine learning pipelines for various use cases, including decision trees and neural networks.",
@@ -204,6 +204,7 @@
       "keywords": [
         "Python",
         "C#",
+        "C++",
         "Git",
         "YAML",
         "SQL",
@@ -283,6 +284,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-08-11T00:00:00"
+    "lastModified": "2025-08-11T00:00:00",
+    "theme": "kendall"
   }
 }
