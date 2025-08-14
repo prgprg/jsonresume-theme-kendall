@@ -1,0 +1,288 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ali Pourgholami Jirandehi",
+    "label": "Medical Engineer and Software Developer",
+    "image": "img/profile.jpg",
+    "email": "ali.pourgholami99@gmail.com",
+    "phone": "+49 177 4778785",
+    "url": "https://github.com/prgprg",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "53115",
+      "city": "Bonn",
+      "countryCode": "DE",
+      "region": "North Rhine-Westphalia"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "prgprg",
+        "url": "https://github.com/prgprg"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "INFORM GmbH",
+      "location": "Aachen, Germany",
+      "position": "Working Student, AI Team (Hiwi)",
+      "url": "https://www.inform-software.com/",
+  "startDate": "2022-03-01",
+      "summary": "Worked as a student in the AI team.",
+      "highlights": [
+        "Developed and optimized machine learning pipelines for various use cases, including decision trees and neural networks.",
+        "Contributed to in-house cloud-native ML services.",
+        "Utilized AWS services (ECR, Lambda, SageMaker, CloudWatch, DynamoDB, S3) and GPUs.",
+        "Assisted in customer-facing ML workshop preparations."
+      ]
+    },
+    {
+      "name": "INFORM GmbH",
+      "location": "Aachen, Germany",
+      "position": "Working Student, ICT Team (Hiwi)",
+      "url": "https://www.inform-software.com/",
+      "startDate": "2020-03-01",
+      "endDate": "2022-03-01",
+      "summary": "Working student in ICT team.",
+      "highlights": [
+        "Automated installation of multiple Oracle Database versions using Ansible and Python scripts, supporting diverse operating systems including Windows Server, Ubuntu, and CentOS.",
+        "Developed automation workflows for customer machine configuration across various operating systems and application setups using Ansible.",
+        "Designed and deployed a control panel using Ansible AWX, hosted on an internal server, to streamline machine management and simplify automation processes via a user-friendly interface.",
+        "Configured and deployed network management servers, including load balancers, for database hosting environments."
+      ]
+    },
+    {
+      "name": "Sib Institute",
+      "location": "Rasht, Iran",
+      "position": "Object Oriented and Microcontroller Programming Tutor",
+      "startDate": "2016",
+      "endDate": "2017",
+      "summary": "Tutored students in OOP and microcontroller programming.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "FH Aachen University of Applied Sciences",
+      "url": "https://www.fh-aachen.de/",
+      "area": "Medical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2020-01-01",
+      "endDate": "2025-01-01"
+    },
+    {
+      "institution": "Freshman Institute of FH Aachen",
+      "url": "https://www.fh-aachen.de/en/fachbereiche/freshman/",
+      "area": "Pre-Degree Program",
+      "studyType": "Preparatory Program",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01"
+    },
+    {
+      "institution": "Mirza Kouchak Khan II, Rasht, Iran",
+      "area": "Math and Physics",
+      "studyType": "High School Diploma",
+      "startDate": "2014-01-01",
+      "endDate": "2017-01-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Silver medal at the 45th International Exhibition of Inventions in Geneva",
+      "date": "2017-03-01",
+      "awarder": "International Exhibition of Inventions Geneva",
+      "summary": "Awarded silver medal for innovation."
+    },
+    {
+      "title": "Diploma from the Romanian Ministry of Research and Innovation for scientific and technological achievement at the 45th IEI in Geneva",
+      "date": "2017-03-01",
+      "awarder": "Romanian Ministry of Research and Innovation",
+      "summary": "Recognition for high scientific and technological level of the invention."
+    },
+    {
+      "title": "Silver medal winner at the Korea International Youth Olympiad 4I",
+      "date": "2017-08-01",
+      "awarder": "Korea International Youth Olympiad 4I",
+      "summary": "Silver medal winner."
+    },
+    {
+      "title": "Bronze prize at the Seoul International Invention Fair 2016",
+      "date": "2016-12-01",
+      "awarder": "Seoul International Invention Fair",
+      "summary": "Bronze prize."
+    },
+    {
+      "title": "Bronze medal at the IIA International Innovation Fair 2017",
+      "date": "2017-09-01",
+      "awarder": "IIA International Innovation Fair",
+      "summary": "Bronze medal winner."
+    },
+    {
+      "title": "3rd place in Junior Football Free Weight (Super Team), Robocup Iran Open 2016 (Miraz Allies 2)",
+      "date": "2016-03-01",
+      "awarder": "Robocup Iran Open",
+      "summary": "Third place as a member of 'Miraz Allies 2'."
+    },
+    {
+      "title": "National 4th place at the 17th Khwarizmi Young Award in Physics and Astronomy",
+      "date": "2015-10-01",
+      "awarder": "Khwarizmi Young Award (Iran)",
+      "summary": "National 4th place."
+    },
+    {
+      "title": "First place at the Aerospace Festival at the Competence Center for Aerospace Systems at Sharif University",
+      "date": "2016-03-01",
+      "awarder": "Sharif University of Technology",
+      "summary": "First place winner."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ML Pipeline Development and MLOps Integration",
+      "description": "Development of machine learning pipelines and MLOps integration.",
+      "highlights": [
+        "Developed and optimized ML pipelines for various use cases (decision trees, neural networks).",
+        "Built cloud-native ML services and integrations.",
+        "Used AWS ECR, Lambda, SageMaker, CloudWatch, DynamoDB, and S3; leveraged GPUs.",
+        "Supported customer-facing ML workshop preparations."
+      ],
+      "keywords": [
+        "AWS",
+        "ECR",
+        "Lambda",
+        "SageMaker",
+        "CloudWatch",
+        "DynamoDB",
+        "S3",
+        "GPU",
+        "MLOps"
+      ],
+      "startDate": "2022-01-01",
+      "endDate": "2025-01-01",
+      "roles": [
+        "ML Engineer",
+        "MLOps"
+      ],
+      "entity": "INFORM GmbH",
+      "type": "application"
+    },
+    {
+      "name": "Digital Astronomical Protractor",
+      "description": "A device to identify stars using a laser-guided mechanism integrated with sensor systems and optical targeting.",
+      "highlights": [
+        "Designed and built the device and control system.",
+        "Prepared field tests for the device's innovation."
+      ],
+      "startDate": "2013-01-01",
+      "endDate": "2017-01-01",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "hardware"
+    },
+    {
+      "name": "C3-Team: Clustered Computation Center",
+      "description": "Simulation of quantum computing models using parallel algorithm development and cluster workflow optimizations in MATLAB.",
+      "highlights": [
+        "Simulated quantum computing models with parallel algorithms.",
+        "Optimized cluster workflow using MATLAB."
+      ],
+      "startDate": "2016-01-01",
+      "endDate": "2018-01-01",
+      "roles": [
+        "Developer"
+      ],
+      "type": "research"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Tools",
+      "keywords": [
+        "Python",
+        "C#",
+        "Git",
+        "YAML",
+        "SQL",
+        "MATLAB",
+        "LabView",
+        "Raspberry Pi",
+        "Arduino"
+      ]
+    },
+    {
+      "name": "Operating systems",
+      "keywords": [
+        "Unix",
+        "Linux",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": [
+        "MS Office",
+        "Jira",
+        "Cura",
+        "Ansible",
+        "AWX",
+        "Altium",
+        "Proteus",
+        "CorelDraw"
+      ]
+    },
+    {
+      "name": "Practices",
+      "keywords": [
+        "AWS",
+        "MLOps",
+        "DevOps",
+        "IoT",
+        "Agile",
+        "OOP",
+        "DSA"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": [
+        "Critical Thinking",
+        "Problem Solving",
+        "Adaptability",
+        "Teamwork"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "C2"
+    },
+    {
+      "language": "German",
+      "fluency": "C1"
+    },
+    {
+      "language": "Persian",
+      "fluency": "Native"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "A2"
+    }
+  ],
+  "references": [
+    {
+      "name": "Dipl.-Kff. Uschi Schulte-Sasse",
+      "reference": "Former Head of Aviation Division, INFORM GmbH (uschi.schulte-sasse@inform-software.com)"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-08-11T00:00:00"
+  }
+}
