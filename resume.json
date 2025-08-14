@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Ali Pourgholami",
-    "label": "Medical Engineer and Software Developer",
-    "image": "img/profile.jpg",
+    "label": "Multidisciplinary engineer fusing Medical Technology, AI, and Automation",
+    "image": "profile.JPEG",
     "email": "ali.pourgholami99@gmail.com",
     "phone": "+49 177 4778785",
-    "url": "https://github.com/prgprg",
+    "url": "https://prgprg.github.io/resume",
     "summary": "",
     "location": {
       "address": "",
@@ -20,6 +20,11 @@
         "network": "GitHub",
         "username": "prgprg",
         "url": "https://github.com/prgprg"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Ali-Pourgholami",
+        "url": "https://www.linkedin.com/in/ali-pourgholami-257068173"
       }
     ]
   },
@@ -69,8 +74,8 @@
       "url": "https://www.fh-aachen.de/",
       "area": "Medical Engineering",
       "studyType": "Bachelor",
-      "startDate": "2020-01-01",
-      "endDate": "2025-01-01"
+      "startDate": "2020-10-01",
+      "endDate": "2025"
     },
     {
       "institution": "Freshman Institute of FH Aachen",
@@ -96,12 +101,6 @@
       "summary": "Awarded silver medal for innovation."
     },
     {
-      "title": "Diploma from the Romanian Ministry of Research and Innovation for scientific and technological achievement at the 45th IEI in Geneva",
-      "date": "2017-03-01",
-      "awarder": "Romanian Ministry of Research and Innovation",
-      "summary": "Recognition for high scientific and technological level of the invention."
-    },
-    {
       "title": "Silver medal winner at the Korea International Youth Olympiad 4I",
       "date": "2017-08-01",
       "awarder": "Korea International Youth Olympiad 4I",
@@ -120,22 +119,10 @@
       "summary": "Bronze medal winner."
     },
     {
-      "title": "3rd place in Junior Football Free Weight (Super Team), Robocup Iran Open 2016 (Miraz Allies 2)",
+      "title": "3rd place in Junior Football Free Weight, Robocup Iran Open 2016 (Miraz Allies 2)",
       "date": "2016-03-01",
       "awarder": "Robocup Iran Open",
       "summary": "Third place as a member of 'Miraz Allies 2'."
-    },
-    {
-      "title": "National 4th place at the 17th Khwarizmi Young Award in Physics and Astronomy",
-      "date": "2015-10-01",
-      "awarder": "Khwarizmi Young Award (Iran)",
-      "summary": "National 4th place."
-    },
-    {
-      "title": "First place at the Aerospace Festival at the Competence Center for Aerospace Systems at Sharif University",
-      "date": "2016-03-01",
-      "awarder": "Sharif University of Technology",
-      "summary": "First place winner."
     }
   ],
   "projects": [
@@ -196,6 +183,45 @@
         "Developer"
       ],
       "type": "research"
+    },
+    {
+      "name": "Storage Robot Demo",
+  "description": "Designed and built a storage room robot (demo) using an AVR microcontroller programmed in CodeVision AVR with C++.",
+  "highlights": [
+      "Designed and built the storage room robot.",
+      "Implemented navigation and obstacle avoidance features."
+  ],
+      "startDate": "2013-01-01",
+      "endDate": "2013-12-31",
+      "roles": ["Robotics Developer"],
+      "type": "robotics",
+      "keywords": ["AVR", "C++", "Robotics"]
+    },
+    {
+      "name": "Marlik-Robocup 2D Football Simulation Team",
+  "description": "Worked on a two-dimensional football (soccer) simulation based on Agent2D code using the C++ programming language.",
+  "highlights": [
+      "Developed simulation algorithms for 2D soccer gameplay.",
+      "Collaborated with team members to enhance simulation accuracy."
+  ],
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "roles": ["Simulation Developer"],
+      "type": "simulation",
+      "keywords": ["C++", "Agent2D", "Simulation"]
+    },
+    {
+      "name": "Smart Garden",
+  "description": "Designed and built a device for harvesting plants in an isolated home environment using an AVR microcontroller programmed in CodeVision AVR with C++.",
+  "highlights": [
+      "Designed and built the device.",
+      "Implemented automated and regulated harvesting controls by measuring temperature and soil moisture."
+  ],
+      "startDate": "2012-01-01",
+      "endDate": "2012-12-31",
+      "roles": ["Embedded Developer"],
+      "type": "iot",
+      "keywords": ["AVR", "C++", "IoT"]
     }
   ],
   "skills": [
