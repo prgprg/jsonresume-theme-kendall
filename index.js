@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 var _ = require('lodash');
 var gravatar = require('gravatar');
 var Mustache = require('mustache');
@@ -240,8 +241,9 @@ function render(resumeObject) {
         }
     }
 
-    resumeObject.css = fs.readFileSync(__dirname + "/style.css", "utf-8");
-    resumeObject.printcss = fs.readFileSync(__dirname + "/print.css", "utf-8");
+    // Adjusted paths: assets moved under public/ for GitHub Pages
+    resumeObject.css = fs.readFileSync(path.join(__dirname, 'public', 'style.css'), 'utf-8');
+    resumeObject.printcss = fs.readFileSync(path.join(__dirname, 'public', 'print.css'), 'utf-8');
     var theme = fs.readFileSync(__dirname + '/resume.template', 'utf8');
     var resumeHTML = Mustache.render(theme, resumeObject);
 
