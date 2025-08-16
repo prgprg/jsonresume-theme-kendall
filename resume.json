@@ -23,7 +23,7 @@
       },
       {
         "network": "LinkedIn",
-        "username": "Ali Pourgholami",
+        "username": "Ali-Pourgholami",
         "url": "https://www.linkedin.com/in/ali-pourgholami-257068173"
       }
     ]
@@ -113,16 +113,16 @@
       "summary": "Silver medal winner."
     },
     {
-      "title": "Bronze prize at the Seoul International Invention Fair 2016",
-      "date": "2016-12-01",
-      "awarder": "Seoul International Invention Fair",
-      "summary": "Bronze prize."
-    },
-    {
       "title": "Bronze medal at the IIA International Innovation Fair 2017",
       "date": "2017-09-01",
       "awarder": "IIA International Innovation Fair",
       "summary": "Bronze medal winner."
+    },
+    {
+      "title": "Bronze prize at the Seoul International Invention Fair 2016",
+      "date": "2016-12-01",
+      "awarder": "Seoul International Invention Fair",
+      "summary": "Bronze prize."
     },
     {
       "title": "3rd place in Junior Football Free Weight (Super Team), Robocup Iran Open 2016 (Miraz Allies 2)",
@@ -131,16 +131,16 @@
       "summary": "Third place as a member of 'Miraz Allies 2'."
     },
     {
-      "title": "National 4th place at the 17th Khwarizmi Young Award in Physics and Astronomy",
-      "date": "2015-10-01",
-      "awarder": "Khwarizmi Young Award (Iran)",
-      "summary": "National 4th place."
-    },
-    {
       "title": "First place at the Aerospace Festival at the Competence Center for Aerospace Systems at Sharif University",
       "date": "2016-03-01",
       "awarder": "Sharif University of Technology",
       "summary": "First place winner."
+    },
+    {
+      "title": "National 4th place at the 17th Khwarizmi Young Award in Physics and Astronomy",
+      "date": "2015-10-01",
+      "awarder": "Khwarizmi Young Award (Iran)",
+      "summary": "National 4th place."
     }
   ],
   "projects": [
@@ -172,115 +172,6 @@
       ],
       "entity": "INFORM GmbH",
       "type": "application"
-    },
-    {
-      "name": "C3-Team (Clustered Computation Center)",
-      "description": "Simulation of quantum computing models using parallel algorithm development and cluster workflow optimizations in MATLAB.",
-      "highlights": [
-        "Simulated quantum computing models with parallel algorithms.",
-        "Optimized cluster workflow using MATLAB."
-      ],
-      "startDate": "2016-01-01",
-      "endDate": "2018-01-01",
-      "roles": [
-        "Developer"
-      ],
-      "type": "research"
-    },
-    {
-      "name": "Digital Astronomical Protractor",
-      "description": "A device to identify stars using a laser-guided mechanism integrated with sensor systems and optical targeting (Patent filed).",
-      "highlights": [
-        "Designed and built the device and control system.",
-        "Prepared field tests for the device's innovation."
-      ],
-      "startDate": "2012-01-01",
-      "endDate": "2017-01-01",
-      "roles": [
-        "Designer",
-        "Developer"
-      ],
-      "type": "hardware"
-    },
-    {
-      "name": "Segelflugzeug (Model Glider)",
-      "description": "Development and construction of a model glider for the ATA Aerospace Competition using balsa wood.",
-      "highlights": [
-        "Designed and built the model glider.",
-        "Participated in the ATA Aerospace Competition."
-      ],
-      "startDate": "2016-01-01",
-      "endDate": "2016-12-31",
-      "roles": [
-        "Designer",
-        "Builder"
-      ],
-      "type": "competition"
-    },
-    {
-      "name": "Mirza Allies Robocup Junior Soccer 2v2 Team",
-      "description": "Designed and built various components of the Junior Soccer 2-vs-2 robot using an AVR microcontroller programmed in CodeVision AVR with C++.",
-      "highlights": [
-        "Designed and built various components of the robot.",
-        "Participated in the Robocup Junior Soccer competition."
-      ],
-      "startDate": "2015-01-01",
-      "endDate": "2015-12-31",
-      "roles": [
-        "Embedded Developer"
-      ],
-      "type": "competition",
-      "keywords": [
-        "Robocup",
-        "AVR",
-        "C++"
-      ]
-    },
-    {
-      "name": "HealthCare Pro",
-      "description": "Designed and built a device to monitor human vital health parameters using an AVR microcontroller programmed in BASCOM-AVR.",
-      "highlights": [
-        "Designed and built the device.",
-        "Implemented monitoring features for vital health parameters."
-      ],
-      "startDate": "2014-01-01",
-      "endDate": "2014-12-31",
-      "roles": [
-        "Hardware Developer"
-      ],
-      "type": "hardware",
-      "keywords": [
-        "AVR",
-        "Healthcare",
-        "CodeVision AVR"
-      ]
-    },
-    {
-      "name": "Cross-Chain Swap Protocol Integration between EVM and non-EVM Chains",
-      "description": "Implemented the Tron-side infrastructure and contracts for a decentralized, intent-based cross-chain swap system integrated with 1inch Fusion+. Extended the project with Ethereum contracts and a front-end interface.",
-      "highlights": [
-        "Developed minimal HTLC escrow contracts on Tron for TRX and TRC-20 tokens, enabling hashlock and timelock logic.",
-        "Implemented Dutch auction parameters, safety deposits, and off-chain relayer/resolver coordination for secure swaps.",
-        "Debugged and refined contract deployment, value transfer, and secret/hash handling across multiple iterations.",
-        "Designed modular architecture with clear documentation, ASCII diagrams, and testing scripts for maintainability.",
-        "Integrated Ethereum-side contracts and built a front-end interface to support user interactions and order broadcasting."
-      ],
-      "startDate": "2025-07-01",
-      "endDate": "2025-07-31",
-      "roles": [
-        "Blockchain Developer",
-        "Smart Contract Engineer"
-      ],
-      "type": "blockchain",
-      "keywords": [
-        "Tron",
-        "Ethereum",
-        "1inch Fusion+",
-        "HTLC",
-        "Cross-Chain",
-        "Solidity",
-        "DeFi"
-      ]
     },
     {
       "name": "Efficient Transformer-Based Brain Tumor Segmentation",
@@ -337,6 +228,81 @@
       ]
     },
     {
+      "name": "Cross-Chain Swap Protocol Integration between EVM and non-EVM Chains",
+      "description": "Implemented the Tron-side infrastructure and contracts for a decentralized, intent-based cross-chain swap system integrated with 1inch Fusion+. Extended the project with Ethereum contracts and a front-end interface.",
+      "highlights": [
+        "Developed minimal HTLC escrow contracts on Tron for TRX and TRC-20 tokens, enabling hashlock and timelock logic.",
+        "Implemented Dutch auction parameters, safety deposits, and off-chain relayer/resolver coordination for secure swaps.",
+        "Debugged and refined contract deployment, value transfer, and secret/hash handling across multiple iterations.",
+        "Designed modular architecture with clear documentation, ASCII diagrams, and testing scripts for maintainability.",
+        "Integrated Ethereum-side contracts and built a front-end interface to support user interactions and order broadcasting."
+      ],
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-31",
+      "roles": [
+        "Blockchain Developer",
+        "Smart Contract Engineer"
+      ],
+      "type": "blockchain",
+      "keywords": [
+        "Tron",
+        "Ethereum",
+        "1inch Fusion+",
+        "HTLC",
+        "Cross-Chain",
+        "Solidity",
+        "DeFi"
+      ]
+    },
+    {
+      "name": "Digital Astronomical Protractor",
+      "description": "A device to identify stars using a laser-guided mechanism integrated with sensor systems and optical targeting (Patent filed).",
+      "highlights": [
+        "Designed and built the device and control system.",
+        "Prepared field tests for the device's innovation."
+      ],
+      "startDate": "2012-01-01",
+      "endDate": "2017-01-01",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "hardware"
+    },
+    {
+      "name": "C3-Team (Clustered Computation Center)",
+      "description": "Simulation of quantum computing models using parallel algorithm development and cluster workflow optimizations in MATLAB.",
+      "highlights": [
+        "Simulated quantum computing models with parallel algorithms.",
+        "Optimized cluster workflow using MATLAB."
+      ],
+      "startDate": "2016-01-01",
+      "endDate": "2018-01-01",
+      "roles": [
+        "Developer"
+      ],
+      "type": "research"
+    },
+    {
+      "name": "Smart Garden",
+      "description": "Designed and built a device for harvesting plants in an isolated home environment using an AVR microcontroller programmed in CodeVision AVR with C++.",
+      "highlights": [
+        "Designed and built the device.",
+        "Implemented automated and regulated harvesting controls by measuring temperature and soil moisture."
+      ],
+      "startDate": "2012-01-01",
+      "endDate": "2012-12-31",
+      "roles": [
+        "Embedded Developer"
+      ],
+      "type": "iot",
+      "keywords": [
+        "AVR",
+        "C++",
+        "IoT"
+      ]
+    },
+    {
       "name": "Storage Robot Demo",
       "description": "Designed and built a storage room robot (demo) using an AVR microcontroller programmed in CodeVision AVR with C++.",
       "highlights": [
@@ -353,6 +319,25 @@
         "AVR",
         "C++",
         "Robotics"
+      ]
+    },
+    {
+      "name": "HealthCare Pro",
+      "description": "Designed and built a device to monitor human vital health parameters using an AVR microcontroller programmed in BASCOM-AVR.",
+      "highlights": [
+        "Designed and built the device.",
+        "Implemented monitoring features for vital health parameters."
+      ],
+      "startDate": "2014-01-01",
+      "endDate": "2014-12-31",
+      "roles": [
+        "Hardware Developer"
+      ],
+      "type": "hardware",
+      "keywords": [
+        "AVR",
+        "Healthcare",
+        "CodeVision AVR"
       ]
     },
     {
@@ -375,39 +360,20 @@
       ]
     },
     {
-      "name": "Smart Garden",
-      "description": "Designed and built a device for harvesting plants in an isolated home environment using an AVR microcontroller programmed in CodeVision AVR with C++.",
+      "name": "Mirza Allies Robocup Junior Soccer 2v2 Team",
+      "description": "Designed and built various components of the Junior Soccer 2-vs-2 robot using an AVR microcontroller programmed in CodeVision AVR with C++.",
       "highlights": [
-        "Designed and built the device.",
-        "Implemented automated and regulated harvesting controls by measuring temperature and soil moisture."
+        "Designed and built various components of the robot.",
+        "Participated in the Robocup Junior Soccer competition."
       ],
-      "startDate": "2012-01-01",
-      "endDate": "2012-12-31",
+      "startDate": "2015-01-01",
+      "endDate": "2015-12-31",
       "roles": [
         "Embedded Developer"
       ],
-      "type": "iot",
+      "type": "competition",
       "keywords": [
-        "AVR",
-        "C++",
-        "IoT"
-      ]
-    },
-    {
-      "name": "Line Follower Robot",
-      "description": "Designed and built a line follower robot using an AVR microcontroller programmed in CodeVision AVR with C++.",
-      "highlights": [
-        "Designed and built the line follower robot.",
-        "Implemented line detection and following algorithms."
-      ],
-      "startDate": "2012-01-01",
-      "endDate": "2012-12-31",
-      "roles": [
-        "Robotics Developer"
-      ],
-      "type": "robotics",
-      "keywords": [
-        "Line Follower",
+        "Robocup",
         "AVR",
         "C++"
       ]
@@ -522,7 +488,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-08-16T12:30:51Z",
+    "lastModified": "2025-08-16T13:31:51Z",
     "theme": "kendall"
   }
 }
