@@ -256,7 +256,7 @@
     },
     {
       "name": "Digital Astronomical Protractor",
-      "description": "A device to identify stars using a laser-guided mechanism integrated with sensor systems and optical targeting (Patent filed).",
+      "description": "A device to identify celestial objects using a laser-guided mechanism integrated with sensor systems and optical targeting (Patent filed).",
       "highlights": [
         "Designed and built the device and control system.",
         "Prepared field tests for the device's innovation."
@@ -323,7 +323,7 @@
     },
     {
       "name": "HealthCare Pro",
-      "description": "Designed and built a device to monitor human vital health parameters using an AVR microcontroller programmed in BASCOM-AVR.",
+      "description": "Designed and built a device to monitor human vital health parameters using an AVR microcontroller programmed in CodeVision-AVR.",
       "highlights": [
         "Designed and built the device.",
         "Implemented monitoring features for vital health parameters."
@@ -337,7 +337,7 @@
       "keywords": [
         "AVR",
         "Healthcare",
-        "CodeVision AVR"
+        "CodeVision-AVR"
       ]
     },
     {
@@ -488,7 +488,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-08-16T13:31:51Z",
+    "lastModified": "2025-08-16T14:18:12Z",
     "theme": "kendall"
   }
 }
