@@ -23,7 +23,7 @@
       },
       {
         "network": "LinkedIn",
-        "username": "Ali-Pourgholami",
+        "username": "Ali Pourgholami",
         "url": "https://www.linkedin.com/in/ali-pourgholami-257068173"
       }
     ]
@@ -488,7 +488,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-08-16T14:18:12Z",
+    "lastModified": "2025-08-16T14:26:22Z",
     "theme": "kendall"
   }
 }
