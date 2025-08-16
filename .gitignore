@@ -6,3 +6,7 @@ resume.generated.json
 resume_copy.json
 awards.json
 projects.json
+skills.json
+resume.base.json
+resume_builder_cli.py
+summary

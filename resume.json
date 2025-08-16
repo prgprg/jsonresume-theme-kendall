@@ -5,9 +5,9 @@
     "label": "Multidisciplinary engineer fusing Medical Technology, AI, and Automation",
     "image": "profile.JPEG",
     "email": "ali.pourgholami99@gmail.com",
-    "phone": "+49 177 4778785",
+    "phone": "",
     "url": "https://prgprg.github.io/resume",
-    "summary": "",
+    "summary": "I am an adaptable engineer with a background in Medical Engineering and a focus on AI, automation, and prototyping. Through academic and professional projects, I have worked on building machine learning pipelines, deploying cloud-native services, and exploring applications in medical imaging, robotics, and mechatronics. I enjoy learning across disciplines and applying diverse tools and technologies to turn ideas into practice—whether through research prototypes, automation workflows, or practical applications. My work has also been recognized at international competitions, innovation fairs, and hackathons, experiences that continue to inspire me to grow and improve. I value teamwork, adaptability, and clear communication, and I am motivated to contribute to projects where thoughtful engineering can make a meaningful impact",
     "location": {
       "address": "",
       "postalCode": "",
@@ -23,7 +23,7 @@
       },
       {
         "network": "LinkedIn",
-        "username": "Ali-Pourgholami",
+        "username": "Ali Pourgholami",
         "url": "https://www.linkedin.com/in/ali-pourgholami-257068173"
       }
     ]
@@ -101,6 +101,12 @@
       "summary": "Awarded silver medal for innovation."
     },
     {
+      "title": "Diploma from the Romanian Ministry of Research and Innovation for scientific and technological achievement at the 45th IEI in Geneva",
+      "date": "2017-03-01",
+      "awarder": "Romanian Ministry of Research and Innovation",
+      "summary": "Recognition for high scientific and technological level of the invention."
+    },
+    {
       "title": "Silver medal winner at the Korea International Youth Olympiad 4I",
       "date": "2017-08-01",
       "awarder": "Korea International Youth Olympiad 4I",
@@ -119,10 +125,22 @@
       "summary": "Bronze medal winner."
     },
     {
-      "title": "3rd place in Junior Football Free Weight, Robocup Iran Open 2016 (Miraz Allies 2)",
+      "title": "3rd place in Junior Football Free Weight (Super Team), Robocup Iran Open 2016 (Miraz Allies 2)",
       "date": "2016-03-01",
       "awarder": "Robocup Iran Open",
       "summary": "Third place as a member of 'Miraz Allies 2'."
+    },
+    {
+      "title": "National 4th place at the 17th Khwarizmi Young Award in Physics and Astronomy",
+      "date": "2015-10-01",
+      "awarder": "Khwarizmi Young Award (Iran)",
+      "summary": "National 4th place."
+    },
+    {
+      "title": "First place at the Aerospace Festival at the Competence Center for Aerospace Systems at Sharif University",
+      "date": "2016-03-01",
+      "awarder": "Sharif University of Technology",
+      "summary": "First place winner."
     }
   ],
   "projects": [
@@ -156,22 +174,7 @@
       "type": "application"
     },
     {
-      "name": "Digital Astronomical Protractor",
-      "description": "A device to identify stars using a laser-guided mechanism integrated with sensor systems and optical targeting.",
-      "highlights": [
-        "Designed and built the device and control system.",
-        "Prepared field tests for the device's innovation."
-      ],
-      "startDate": "2013-01-01",
-      "endDate": "2017-01-01",
-      "roles": [
-        "Designer",
-        "Developer"
-      ],
-      "type": "hardware"
-    },
-    {
-      "name": "C3-Team: Clustered Computation Center",
+      "name": "C3-Team (Clustered Computation Center)",
       "description": "Simulation of quantum computing models using parallel algorithm development and cluster workflow optimizations in MATLAB.",
       "highlights": [
         "Simulated quantum computing models with parallel algorithms.",
@@ -185,63 +188,263 @@
       "type": "research"
     },
     {
+      "name": "Digital Astronomical Protractor",
+      "description": "A device to identify stars using a laser-guided mechanism integrated with sensor systems and optical targeting (Patent filed).",
+      "highlights": [
+        "Designed and built the device and control system.",
+        "Prepared field tests for the device's innovation."
+      ],
+      "startDate": "2012-01-01",
+      "endDate": "2017-01-01",
+      "roles": [
+        "Designer",
+        "Developer"
+      ],
+      "type": "hardware"
+    },
+    {
+      "name": "Segelflugzeug (Model Glider)",
+      "description": "Development and construction of a model glider for the ATA Aerospace Competition using balsa wood.",
+      "highlights": [
+        "Designed and built the model glider.",
+        "Participated in the ATA Aerospace Competition."
+      ],
+      "startDate": "2016-01-01",
+      "endDate": "2016-12-31",
+      "roles": [
+        "Designer",
+        "Builder"
+      ],
+      "type": "competition"
+    },
+    {
+      "name": "Mirza Allies Robocup Junior Soccer 2v2 Team",
+      "description": "Designed and built various components of the Junior Soccer 2-vs-2 robot using an AVR microcontroller programmed in CodeVision AVR with C++.",
+      "highlights": [
+        "Designed and built various components of the robot.",
+        "Participated in the Robocup Junior Soccer competition."
+      ],
+      "startDate": "2015-01-01",
+      "endDate": "2015-12-31",
+      "roles": [
+        "Embedded Developer"
+      ],
+      "type": "competition",
+      "keywords": [
+        "Robocup",
+        "AVR",
+        "C++"
+      ]
+    },
+    {
+      "name": "HealthCare Pro",
+      "description": "Designed and built a device to monitor human vital health parameters using an AVR microcontroller programmed in BASCOM-AVR.",
+      "highlights": [
+        "Designed and built the device.",
+        "Implemented monitoring features for vital health parameters."
+      ],
+      "startDate": "2014-01-01",
+      "endDate": "2014-12-31",
+      "roles": [
+        "Hardware Developer"
+      ],
+      "type": "hardware",
+      "keywords": [
+        "AVR",
+        "Healthcare",
+        "CodeVision AVR"
+      ]
+    },
+    {
+      "name": "Cross-Chain Swap Protocol Integration between EVM and non-EVM Chains",
+      "description": "Implemented the Tron-side infrastructure and contracts for a decentralized, intent-based cross-chain swap system integrated with 1inch Fusion+. Extended the project with Ethereum contracts and a front-end interface.",
+      "highlights": [
+        "Developed minimal HTLC escrow contracts on Tron for TRX and TRC-20 tokens, enabling hashlock and timelock logic.",
+        "Implemented Dutch auction parameters, safety deposits, and off-chain relayer/resolver coordination for secure swaps.",
+        "Debugged and refined contract deployment, value transfer, and secret/hash handling across multiple iterations.",
+        "Designed modular architecture with clear documentation, ASCII diagrams, and testing scripts for maintainability.",
+        "Integrated Ethereum-side contracts and built a front-end interface to support user interactions and order broadcasting."
+      ],
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-31",
+      "roles": [
+        "Blockchain Developer",
+        "Smart Contract Engineer"
+      ],
+      "type": "blockchain",
+      "keywords": [
+        "Tron",
+        "Ethereum",
+        "1inch Fusion+",
+        "HTLC",
+        "Cross-Chain",
+        "Solidity",
+        "DeFi"
+      ]
+    },
+    {
+      "name": "Efficient Transformer-Based Brain Tumor Segmentation",
+      "description": "Developed a streamlined ensemble model for brain tumor segmentation from MRI scans by integrating U-Net and Vision Transformer (U-ViT) architectures across multiple anatomical planes.",
+      "highlights": [
+        "Designed a modular U-ViT model combining convolutional and transformer-based components for improved contextual representation.",
+        "Implemented a simplified single-pass ensemble using axial, sagittal, and coronal orientations with voxel-wise fusion.",
+        "Introduced TF-IDF inspired class weighting and composite loss functions (Dice, Cross-Entropy, Hausdorff distance) to address class imbalance and boundary accuracy.",
+        "Evaluated on BraTS21 dataset, achieving superior segmentation accuracy compared to baseline U-Net ensembles."
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2025-06-30",
+      "roles": [
+        "Machine Learning Researcher"
+      ],
+      "type": "research",
+      "keywords": [
+        "Medical Imaging",
+        "MRI",
+        "Brain Tumor Segmentation",
+        "U-Net",
+        "Vision Transformer",
+        "Deep Learning",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Quadratic Funding Platform",
+      "description": "Developed a production-ready quadratic funding system using ink! smart contracts, integrated with a React/TypeScript frontend and Polkadot wallet for real-time funding rounds and contributions.",
+      "highlights": [
+        "Implemented a Capital-Constrained Quadratic Funding (CQF) smart contract in ink! with overflow-safe U256 arithmetic and direct wallet-to-wallet transfers.",
+        "Designed core data structures for projects, rounds, and contributions, with real-time quadratic funding calculations and privacy-preserving contributor stats.",
+        "Integrated smart contract with React frontend via Polkadot.js, enabling users to connect wallets, create initiatives, and contribute funds with quadratic weighting.",
+        "Built an admin dashboard for managing matching pools, funding rounds, and project eligibility, with secure contract deployment workflows.",
+        "Deployed and tested the system on Substrate-based networks (Westend, Rococo, POP), including wallet integration and event-driven UI updates."
+      ],
+      "startDate": "2025-06-01",
+      "endDate": "2025-07-31",
+      "roles": [
+        "Blockchain Developer",
+        "Full-Stack Engineer"
+      ],
+      "type": "blockchain",
+      "keywords": [
+        "Quadratic Funding",
+        "ink!",
+        "Substrate",
+        "Polkadot.js",
+        "Smart Contracts",
+        "Web3",
+        "Rust",
+        "React",
+        "DeFi"
+      ]
+    },
+    {
       "name": "Storage Robot Demo",
-  "description": "Designed and built a storage room robot (demo) using an AVR microcontroller programmed in CodeVision AVR with C++.",
-  "highlights": [
-      "Designed and built the storage room robot.",
-      "Implemented navigation and obstacle avoidance features."
-  ],
+      "description": "Designed and built a storage room robot (demo) using an AVR microcontroller programmed in CodeVision AVR with C++.",
+      "highlights": [
+        "Designed and built the storage room robot.",
+        "Implemented navigation and obstacle avoidance features."
+      ],
       "startDate": "2013-01-01",
       "endDate": "2013-12-31",
-      "roles": ["Robotics Developer"],
+      "roles": [
+        "Robotics Developer"
+      ],
       "type": "robotics",
-      "keywords": ["AVR", "C++", "Robotics"]
+      "keywords": [
+        "AVR",
+        "C++",
+        "Robotics"
+      ]
     },
     {
       "name": "Marlik-Robocup 2D Football Simulation Team",
-  "description": "Worked on a two-dimensional football (soccer) simulation based on Agent2D code using the C++ programming language.",
-  "highlights": [
-      "Developed simulation algorithms for 2D soccer gameplay.",
-      "Collaborated with team members to enhance simulation accuracy."
-  ],
+      "description": "Worked on a two-dimensional football (soccer) simulation based on Agent2D code using the C++ programming language.",
+      "highlights": [
+        "Developed simulation algorithms for 2D soccer gameplay.",
+        "Collaborated with team members to enhance simulation accuracy."
+      ],
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
-      "roles": ["Simulation Developer"],
+      "roles": [
+        "Simulation Developer"
+      ],
       "type": "simulation",
-      "keywords": ["C++", "Agent2D", "Simulation"]
+      "keywords": [
+        "C++",
+        "Agent2D",
+        "Simulation"
+      ]
     },
     {
       "name": "Smart Garden",
-  "description": "Designed and built a device for harvesting plants in an isolated home environment using an AVR microcontroller programmed in CodeVision AVR with C++.",
-  "highlights": [
-      "Designed and built the device.",
-      "Implemented automated and regulated harvesting controls by measuring temperature and soil moisture."
-  ],
+      "description": "Designed and built a device for harvesting plants in an isolated home environment using an AVR microcontroller programmed in CodeVision AVR with C++.",
+      "highlights": [
+        "Designed and built the device.",
+        "Implemented automated and regulated harvesting controls by measuring temperature and soil moisture."
+      ],
       "startDate": "2012-01-01",
       "endDate": "2012-12-31",
-      "roles": ["Embedded Developer"],
+      "roles": [
+        "Embedded Developer"
+      ],
       "type": "iot",
-      "keywords": ["AVR", "C++", "IoT"]
+      "keywords": [
+        "AVR",
+        "C++",
+        "IoT"
+      ]
+    },
+    {
+      "name": "Line Follower Robot",
+      "description": "Designed and built a line follower robot using an AVR microcontroller programmed in CodeVision AVR with C++.",
+      "highlights": [
+        "Designed and built the line follower robot.",
+        "Implemented line detection and following algorithms."
+      ],
+      "startDate": "2012-01-01",
+      "endDate": "2012-12-31",
+      "roles": [
+        "Robotics Developer"
+      ],
+      "type": "robotics",
+      "keywords": [
+        "Line Follower",
+        "AVR",
+        "C++"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Tools",
+      "name": "Programming & Tools",
       "keywords": [
         "Python",
         "C#",
         "C++",
-        "Git",
-        "YAML",
+        "Rust",
+        "Solidity",
+        "JavaScript",
+        "TypeScript",
         "SQL",
         "MATLAB",
-        "LabView",
-        "Raspberry Pi",
-        "Arduino"
+        "Git",
+        "YAML",
+        "Bash/Shell"
       ]
     },
     {
-      "name": "Operating systems",
+      "name": "Data & Machine Learning",
+      "keywords": [
+        "Data Analysis & Visualization",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Medical Imaging",
+        "Model Deployment (MLOps)",
+        "Statistical Modeling"
+      ]
+    },
+    {
+      "name": "Operating Systems",
       "keywords": [
         "Unix",
         "Linux",
@@ -249,7 +452,7 @@
       ]
     },
     {
-      "name": "Software",
+      "name": "Software & Frameworks",
       "keywords": [
         "MS Office",
         "Jira",
@@ -258,7 +461,11 @@
         "AWX",
         "Altium",
         "Proteus",
-        "CorelDraw"
+        "CorelDraw",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "React"
       ]
     },
     {
@@ -270,7 +477,10 @@
         "IoT",
         "Agile",
         "OOP",
-        "DSA"
+        "DSA",
+        "API Design",
+        "Smart Contract Development",
+        "Test-Driven Development"
       ]
     },
     {
@@ -279,7 +489,9 @@
         "Critical Thinking",
         "Problem Solving",
         "Adaptability",
-        "Teamwork"
+        "Teamwork",
+        "Communication",
+        "Research & Documentation"
       ]
     }
   ],
@@ -310,7 +522,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-08-11T00:00:00",
+    "lastModified": "2025-08-16T12:30:51Z",
     "theme": "kendall"
   }
 }
