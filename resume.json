@@ -52,10 +52,8 @@
       "endDate": "2022-03-01",
       "summary": "Working student in ICT team.",
       "highlights": [
-        "Automated installation of multiple Oracle Database versions using Ansible and Python scripts, supporting diverse operating systems including Windows Server, Ubuntu, and CentOS.",
-        "Developed automation workflows for customer machine configuration across various operating systems and application setups using Ansible.",
-        "Designed and deployed a control panel using Ansible AWX, hosted on an internal server, to streamline machine management and simplify automation processes via a user-friendly interface.",
-        "Configured and deployed network management servers, including load balancers, for database hosting environments."
+        "Automated database and machine setup using Ansible and Python across diverse operating systems, improving consistency and efficiency.",
+        "Developed internal tools and infrastructure, including an Ansible AWX control panel and network management servers for database environments."
       ]
     },
     {
@@ -394,7 +392,7 @@
         "MATLAB",
         "Git",
         "YAML",
-        "Bash/Shell"
+        "Shell Scripting (Bash)"
       ]
     },
     {
@@ -406,7 +404,7 @@
         "Computer Vision",
         "Medical Imaging",
         "Model Deployment (MLOps)",
-        "Statistical Modeling"
+        "Applied Statistics & Modeling"
       ]
     },
     {
@@ -427,10 +425,9 @@
         "AWX",
         "Altium",
         "Proteus",
-        "CorelDraw",
+        "CorelDRAW (Graphic Design)",
         "Docker",
         "Kubernetes",
-        "CI/CD",
         "React"
       ]
     },
@@ -440,13 +437,25 @@
         "AWS",
         "MLOps",
         "DevOps",
-        "IoT",
+        "Internet of Things (IoT)",
         "Agile",
         "OOP",
-        "DSA",
+        "Data Structures & Algorithms (DSA)",
+        "Continuous Integration & Deployment (CI/CD)",
         "API Design",
         "Smart Contract Development",
         "Test-Driven Development"
+      ]
+    },
+    {
+      "name": "Hardware & Prototyping",
+      "keywords": [
+        "PCB Layout & Design",
+        "Hardware Prototyping",
+        "Additive Manufacturing (3D Printing)",
+        "Electronics Design",
+        "Arduino Development",
+        "Raspberry Pi Development"
       ]
     },
     {
@@ -457,7 +466,8 @@
         "Adaptability",
         "Teamwork",
         "Communication",
-        "Research & Documentation"
+        "Research & Documentation",
+        "Prompt Engineering (LLM Interaction)"
       ]
     }
   ],
@@ -488,7 +498,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-08-16T14:26:22Z",
+    "lastModified": "2025-08-18T11:47:39Z",
     "theme": "kendall"
   }
 }
